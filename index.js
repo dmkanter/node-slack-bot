@@ -34,7 +34,7 @@ slack.on('message', function (message) {
   // We recieved a message that wasn't from us and either mentioned us or was a DM to us
   // Let's ust say hi
   var channel = slack.getChannelGroupOrDMByID(message.channel)
-  channel.send('Good day to you from https://beepboophq.com!')
+  channel.send('Good day to you from Wired Dude!')
 })
 
 // initiate login
